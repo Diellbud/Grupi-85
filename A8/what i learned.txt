@@ -1,0 +1,3 @@
+the link <a href="http://diell.budima.net">Text</a>
+the  break    <br>
+the image     <img src="Link" alt="">

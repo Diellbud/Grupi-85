@@ -1,0 +1,7 @@
+div.diell :first-child{
+background-color: red;
+}
+div.ari :nth-child(2){
+   background-color: blue;
+    }
+    

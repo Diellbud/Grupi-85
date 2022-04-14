@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<style>
+    a:visited{
+    color: #00ff00;
+    }
+    a:hover{
+    color: #ff00ff;
+    }
+    a:active{
+    color: #0000ff;
+    }
+    ul li::marker{
+    color: red;
+    }
+    .description::before{
+    content: "";
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    }
+    .description::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    display: inline-block;
+    }
+    </style>
+</head>
+<body>
+<a href="#">visited link</a>
+<hr>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem inventore adipisci eligendi sunt ea architecto nesciunt, ullam asperiores porro, doloremque tempore quam deserunt. Ipsam eligendi hic enim sapiente libero iure!</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quis eveniet nostrum corrupti doloremque temporibus eos sint reiciendis magnam rem libero accusamus veritatis consequuntur, earum reprehenderit dolorem, provident cumque laudantium!</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum assumenda commodi, maxime labore architecto dolor blanditiis ducimus corrupti placeat possimus! Suscipit quam, esse quo sit assumenda nemo aut reprehenderit illum.</p>
+<hr>
+<ul>
+<li>Apples</li>
+<li>Grapes</li>
+<li>Banana</li>
+</ul>
+<hr>
+<p class="description">Sot eshte dite e bukur</p>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+.text {
+    font-size: 48px;
+    position: absolute;
+    z-index: -1;
+}
+.red{
+    background: red;
+    transition: 1s;
+    transform-origin: top left;
+}
+.blue{
+    background: blue;
+    transition: 1s;
+    transform-origin: top right;
+}
+.yellow{
+    background: yellow;
+    transition: 1s;
+    transform-origin: bottom left;
+}
+.green{
+    background: green;
+    transition: 1s;
+    transform-origin: bottom right;
+}
+
+.parent:hover .red,
+.parent:hover .green {
+    transform: rotate(90deg);
+}
+.parent:hover .blue,
+.parent:hover .yellow {
+    transform: rotate(-90deg);
+}
+    </style>
+</head>
+<body>
+<div class="container">
+    <p class="text">Hi There!</p>
+    <div class="parent">
+        <div class="box red"></div>
+        <div class="box blue"></div>
+        <div class="box yellow"></div>
+        <div class="box green"></div>
+    </div>
+</div>
+</body>
+</html>

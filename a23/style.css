@@ -1,0 +1,30 @@
+div {
+overflow: hidden;
+width: 1000px;
+}
+h1 {
+border:solid 10px;
+width: 30px;
+border-radius: 10px;
+}
+.red {
+    float: right;
+border-color: red;
+}
+.green {
+    border-color: greenyellow;
+}
+.blue {
+    border-color: blue;
+}
+.red1 {
+    border-color: red;
+    }
+    .green1 {
+        border-color: greenyellow;
+    }
+    .blue1 {
+        border-color: blue;
+    }
+    
+    

@@ -1,0 +1,33 @@
+.div {
+    width: 300px;
+    height: 700px;
+    background-color: gainsboro;
+
+}
+.ybi {
+    margin-left: 60px;
+}
+.Name {
+    margin-left: 15px;
+}
+.Nameinput {
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.Email {
+    margin-left: 15px;
+}
+.Emailinput {
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.Password {
+    margin-left: 15px;
+}
+.Passwordinput {
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.Age {
+    margin-left: 15px;
+}

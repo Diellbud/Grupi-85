@@ -1,0 +1,7 @@
+body {
+    display: flex;
+}
+.right {
+    background-color: royalblue;
+    width: 100px;
+}

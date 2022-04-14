@@ -1,0 +1,15 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    animation-name: shembull;
+    animation-duration: 4s;
+    animation-delay: 3s;
+}
+
+@keyframes shembull{
+    0% {background-color: lightcoral;}
+    25% {background-color: yellow;}
+    50% { background-color: aqua;}
+    100% { background-color: green;}
+}

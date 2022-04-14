@@ -1,0 +1,110 @@
+.top-part {
+position: absolute;
+width: 2440px;
+height: 94px;
+background: #FFFFFF;
+}
+body  {
+    background: #E5E5E5;
+}
+.top-text  {
+
+    position: center;
+margin-left: 1000px;
+}
+.lyrics  {
+    position: absolute;
+    width: 907px;
+    height: 850px;
+    left: 90px;
+    top: 170px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.title {
+
+margin-left: 300px;
+font-size: 50px;
+}
+.song-title  {
+font-size: 30px;
+
+}
+.song  {
+margin-left: 260px;
+position: center;
+font-weight: bold;
+font-size: 20px; 
+}
+h1  {
+ margin-left: 200px;
+position: center;
+font-weight: bold;
+}
+.ref  {
+
+    margin-left: 50px;
+    position: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.creator  {
+    position: absolute;
+    margin-top: 50px;
+width: 383px;
+height: 800px;
+left: 1302px;
+top: 134px;
+background: #FFFFFF;
+border-radius: 10px;
+}
+.img   {
+    position: absolute;
+margin-left: 120px;
+margin-top: 50px;
+}
+.name  {
+    position: absolute;
+margin-left: 140px;
+margin-top: 200px;   
+}
+.date  {
+    position: absolute;
+margin-left: 140px;
+margin-top: 230px;   
+}
+.dateplace  {
+    position: absolute;
+margin-left: 160px;
+margin-top: 260px;   
+}
+.othersongs {
+    position: absolute;
+margin-left: 90px;
+margin-top: 290px;   
+}
+.othersongslist {
+    position: absolute;
+margin-left: 110px;
+margin-top: 350px;
+text-align: center;   
+}
+.other-artists  {
+    position: absolute;
+    margin-top: 50px;
+width: 383px;
+height: 800px;
+left: 1302px;
+top: 134px;
+background: #FFFFFF;
+border-radius: 10px;
+margin-left: 500px;
+}
+.a  {
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 50px;
+}
